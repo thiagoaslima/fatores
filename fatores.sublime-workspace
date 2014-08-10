@@ -1,0 +1,740 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"todos",
+				"todosInStore"
+			],
+			[
+				"nav",
+				"navHeader"
+			],
+			[
+				"html",
+				"html5	Simple HTML5 Boilerplate"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"team",
+				"team-modal"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"te",
+				"team-options"
+			],
+			[
+				"res",
+				"resetChildren"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
+				"str",
+				"structureSrv"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"pos",
+				"pos:a	position:absolute"
+			],
+			[
+				"table",
+				"table-row"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"po",
+				"pos:r	position:relative"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"d",
+				"data-list-selector"
+			],
+			[
+				"r",
+				"trf-r	transform: rotate(${1:angle});"
+			],
+			[
+				"is",
+				"is-open"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"get",
+				"getFather"
+			],
+			[
+				"father",
+				"fatherCategory"
+			],
+			[
+				"fle",
+				"flex-grow"
+			],
+			[
+				"Itens",
+				"itensService"
+			],
+			[
+				"script",
+				"script"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"fw",
+				"fw:n	font-weight:normal"
+			],
+			[
+				"svg",
+				"svgLoading"
+			],
+			[
+				"sv",
+				"svgLoad"
+			],
+			[
+				"ge",
+				"getElementsByTagName"
+			],
+			[
+				"re",
+				"replace"
+			],
+			[
+				"data",
+				"data-list-selector"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"c",
+				"cliente"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"select",
+				"select-list"
+			],
+			[
+				"sele",
+				"select-list"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"$s",
+				"$scope	AngularJS"
+			],
+			[
+				"id",
+				"idPai"
+			],
+			[
+				"obj",
+				"objPai"
+			],
+			[
+				"chil",
+				"childrenActions"
+			],
+			[
+				"fil",
+				"filhasLen"
+			],
+			[
+				"dici",
+				"dicionarioPaiFilha"
+			],
+			[
+				"categoria",
+				"categoriaFilho"
+			],
+			[
+				"categ",
+				"categoriaFilho"
+			],
+			[
+				"pai",
+				"paiLen"
+			],
+			[
+				"depend",
+				"dependencia"
+			],
+			[
+				"em",
+				"empreiteras"
+			],
+			[
+				"u",
+				"uniqueOfType"
+			],
+			[
+				"cat",
+				"categorias"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"o",
+				"onlyunique"
+			],
+			[
+				"$pro",
+				"$promise"
+			],
+			[
+				"pais",
+				"paisRegistrados"
+			],
+			[
+				"log",
+				"logDom"
+			],
+			[
+				"n",
+				"nome"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"filter",
+				"filterDeps"
+			],
+			[
+				"p",
+				"processo"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"ra",
+				"randomNumber"
+			],
+			[
+				"tr",
+				"trs	transition"
+			],
+			[
+				"list",
+				"list-selector-isOpen"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"I",
+				"Items2"
+			],
+			[
+				"scr",
+				"scripts"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML5"
+			],
+			[
+				"re pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"CSS Less-ish: Compile"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"syn cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"pro",
+				"Project: Edit"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Toggle Trailing Spaces Highlighting"
+			],
+			[
+				"prefix",
+				"AngularJS: Toggle - Enable data- Prefix"
+			],
+			[
+				"pret",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pac ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pa ins",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"p ins",
+				"Package Control: Install Package"
+			],
+			[
+				"p li",
+				"Package Control: List Packages"
+			],
+			[
+				"pac in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 506.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/thiagoaslima/dev/fatores/.jshintrc",
+		"/Users/thiagoaslima/dev/fatores/Gruntfile.js",
+		"/Users/thiagoaslima/dev/fatores/app/scripts/app.js",
+		"/Users/thiagoaslima/dev/fatores/npm-debug.log",
+		"/Users/thiagoaslima/dev/mytodo/test/karma.conf.js",
+		"/Users/thiagoaslima/dev/mytodo/bower.json",
+		"/Users/thiagoaslima/dev/gepop/layout/html+css/index.html",
+		"/Users/thiagoaslima/dev/gepop/layout/html+css/normalize.css",
+		"/Users/thiagoaslima/Downloads/Frozen.2013.1080p.BluRay.x264.YI.srt",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/index.html",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/scripts/controllers/mainController.js",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/views/navHeader.html",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/scripts/services/structureService.js",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/views/team.html",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/scripts/controllers/configController.js",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/styles/main.css",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/assets/icons/add.svg",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/scripts/directives/uiIconsDirectives.js",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/assets/icons/icons.svg",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/scripts/app.js",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/views/config.html",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/scripts/directives/list-selector.js",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/styles/icons.css",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/partials/list-selector.html",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/styles/list-select.css",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/data/data.json",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/assets/icons/icons.css",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/scripts/directives.js",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/model",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/scripts/services/configService.js",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/partials/select-list.html",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/scripts/controllers/clienteController.js",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/scripts/services/itensService.js",
+		"/Users/thiagoaslima/dev/reali/reali/bootstrap/start.php",
+		"/Users/thiagoaslima/dev/reali/reali/public/.htaccess",
+		"/Users/thiagoaslima/dev/reali/reali/app/config/tlima/database.php",
+		"/Users/thiagoaslima/Desktop/teste/index.html",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/scripts/services/itemsService.js",
+		"/Users/thiagoaslima/dev/ang-news/app/index.html",
+		"/Users/thiagoaslima/dev/ang-news/app/views/nav.html",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/app/scripts/services/processosService.js",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/.jshintrc",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/fatoresApp.sublime-workspace",
+		"/Users/thiagoaslima/dev/gepop/fatoresApp/fatoresApp.sublime-project",
+		"/Users/thiagoaslima/Library/Application Support/Sublime Text 2/Settings/SideBarEnhancements.json",
+		"/Volumes/THIAGO/Nova pasta (2)/parte1/Objetivo geral",
+		"/Volumes/THIAGO/Nova pasta (2)/parte1/Passo1",
+		"/Users/thiagoaslima/Library/Application Support/Sublime Text 2/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/Users/thiagoaslima/dev/gepop/angularjs/app/components/list-selector.html",
+		"/Users/thiagoaslima/dev/gepop/angularjs/app/views/app.html",
+		"/Users/thiagoaslima/dev/gepop/angularjs/app/scripts/filters.js",
+		"/Users/thiagoaslima/dev/gepop/angularjs/app/scripts/controllers/processosController.js",
+		"/Users/thiagoaslima/dev/gepop/angularjs/app/styles/main.css",
+		"/Users/thiagoaslima/dev/gepop/angularjs/app/scripts/directives.js",
+		"/Users/thiagoaslima/dev/gepop/angularjs/app/index.html",
+		"/Users/thiagoaslima/dev/gepop/angularjs/app/data/data.json",
+		"/Users/thiagoaslima/dev/gepop/angularjs/app/components/list-selector_old.html",
+		"/Users/thiagoaslima/dev/gepop/angularjs/app/scripts/app.js",
+		"/Users/thiagoaslima/dev/gepop/angularjs/app/components/partials/list-selector-with-filter.html",
+		"/Users/thiagoaslima/dev/gepop/angularjs/app/scripts/components/list-selector.html",
+		"/Users/thiagoaslima/dev/gepop/angularjs/.jshintrc",
+		"/Users/thiagoaslima/dev/gepop/angularjs/app/scripts/services/processosService.js",
+		"/Users/thiagoaslima/dev/ang-news/.jshintrc",
+		"/Users/thiagoaslima/dev/gepop/angularjs/app/.jshintrc",
+		"/Users/thiagoaslima/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/thiagoaslima/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/thiagoaslima/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/thiagoaslima/Library/Application Support/Sublime Text 2/Packages/User/MacTerminal.sublime-settings",
+		"/Users/thiagoaslima/Library/Application Support/Sublime Text 2/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/thiagoaslima/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/thiagoaslima/dev/gepop/angularjs/app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"  ",
+			"PendenteResponder",
+			"RespondidoResponder",
+			"LocalStorageModule",
+			"<p class=\"input-group\" ng-repeat=\"todo in todos\">\n    <input type=\"text\" class=\"form-control\" ng-model=\"todo\">\n    <span class=\"input-group-btn\">\n      <button class=\"btn btn-danger\" ng-click=\"removeTodo($index)\" aria-lavel=\"Remove\">X</button>\n    </span>\n  </p>",
+			",)",
+			"117",
+			"menu-local",
+			"menuLocal",
+			"g",
+			"a",
+			"cliente",
+			"250",
+			"update",
+			"search",
+			"global",
+			"menuGlobal",
+			"search",
+			"padding: 1em;",
+			"scope",
+			"nome",
+			"element",
+			"scope",
+			"opened",
+			"\"",
+			"scope",
+			"nome",
+			"itens",
+			": {",
+			"main",
+			"close",
+			"categorias",
+			"pai",
+			"cat",
+			"el",
+			"item",
+			"117",
+			"<header>",
+			"option",
+			"class=\"select\"",
+			"clearfix",
+			"0",
+			"cliente",
+			"empreendimentos",
+			"cliente",
+			"<h2>",
+			"select-option",
+			">\n    <header>",
+			"<div class=",
+			" = 0;",
+			"$scope.",
+			"$watch('",
+			"obras",
+			"fracoes",
+			"subfracoes",
+			"empreiteras",
+			"tarefas",
+			"$scope.empreendimentos",
+			"empreendimentos",
+			"fracao",
+			"frac",
+			"fracao",
+			"obra",
+			"cliente",
+			"addChild(pai);",
+			":",
+			"categorias",
+			"obj",
+			"dependencia",
+			"dependencias",
+			"['subfracoes']",
+			"obj",
+			"});$scope",
+			"$scope",
+			"empreendimentos",
+			"cliente",
+			"client",
+			"$scope",
+			"ClienteSrv",
+			"]}",
+			"[",
+			"\"pai\": {\"id\": ",
+			", \"nome\": \"empreendimento\"",
+			", \"nome\": \"cliente\"",
+			"pai",
+			"[]",
+			"classe",
+			"deps",
+			"name",
+			"Items",
+			"items",
+			"scipt",
+			"id\n			nome\n			pai\n				classe\n				id",
+			"id\n			nome\n			pai\n				classe\n				id	",
+			"required",
+			"$",
+			"update",
+			"scope",
+			">\n",
+			"item",
+			"+",
+			"}}",
+			"cliente",
+			"console",
+			"filter",
+			"list-select-",
+			"0.2",
+			"			\n",
+			"id",
+			"{\n",
+			"');\n",
+			": {",
+			"dados",
+			"],",
+			"cliente",
+			"angularjsApp",
+			"angularjs",
+			"angularjsApp",
+			"Posts",
+			"Items",
+			"module"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true
+}

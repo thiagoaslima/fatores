@@ -21,6 +21,9 @@ module.exports = function(grunt) {
         dist: 'dist'
     };
 
+    // Register grunt-bower-install
+    grunt.loadNpmTasks('grunt-bower-install');
+
     // Define the configuration for all the tasks
     grunt.initConfig({
 
@@ -42,6 +45,7 @@ module.exports = function(grunt) {
                 }
             }
         },
+
 
         // Watches files for changes and runs tasks based on the changed files
         watch: {

@@ -15,5 +15,5 @@ angular
     'ngResource',
     'ngSanitize',
     'ngTouch',
-    'ui.router'
+    'ui-router'
   ]);
