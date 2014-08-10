@@ -8,12 +8,15 @@
  *
  * Main module of the application.
  */
-angular
-  .module('fatoresApp', [
+angular.module('fatoresApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
     'ngSanitize',
     'ngTouch',
-    'ui-router'
-  ]);
+    'ui.router',
+    'once',
+    'customAttributes',
+    'customElements',
+    'routes'
+]);
