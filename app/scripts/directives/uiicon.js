@@ -12,8 +12,13 @@ angular.module('customElements')
             return {
                 restrict: 'E',
                 replace: true,
-                template: '<svg class="ui-icon" ng-class={{attrs.icon attrs.class}}><use xlink:href="#{{attrs.icon}}"></svg>',
-                link: function(scope) {
+                scope: true,
+                template: '<svg class="ui-icon" ng-class={{name}}  ng-class={{classes}}><use xlink:href="{{ id }}"></svg>',
+                link: function(scope, element, attrs) {
+                    scope.name = attrs.icon;
+                    scope.classes = attrs.icon + (attrs.class) ? ' ' + attrs.class : '';
+                    scope.id = '#' + attrs.icon;
+
                     var tmpl = document.getElementById('svg-icons');
                     if (!scope.$root.hasOwnProperty('svgLoading')) {
                         scope.$root.svgLoading = false;
@@ -29,7 +34,7 @@ angular.module('customElements')
                                 scope.$root.svgLoading = false;
                             })
                             .error(function() {
-                                console.log('not so easy');
+                                console.log('unable to get icons.svg');
                             });
                     }
                 }
