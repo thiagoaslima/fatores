@@ -1,0 +1,19 @@
+<div class="list-selector">
+    <header>
+        <div class="l-base-left">
+            <ui-icon icon="chevron"></ui-icon>
+        </div>
+        <div class="title">{{selCtrl.title | capitalize}}</div>
+        <div class="l-base-right">
+            <ui-icon icon="search"></ui-icon>
+        </div>
+    </header>
+
+    <div class="body">
+        <div class="l-base-left"></div>
+        <div class="options">
+            <list-selector-option title="{{selCtrl.elem}}" ng-model="ngModel" ng-repeat="item in selCtrl.itens"></list-selector-option>
+        </div>
+        <div class="l-base-right"></div>
+    </div>
+</div>

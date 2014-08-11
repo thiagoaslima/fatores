@@ -19,45 +19,50 @@
     <!-- endbuild -->
 </head>
 
-<body ng-app="fatoresApp">
+<body ng-app="fatoresApp" ng-controller="mainController as main">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- Add your site or application content here -->
     <header class="appHeader">
-        <div class="layout-base-left">
+        <div class="l-base-left">
             <ui-icon icon="menu-global"></ui-icon>
         </div>
         <div class="title">
             <h1 class="unique">Ta vendo alguma coisa?</h1>
         </div>
-        <div class="icons">
+        <div class="icons l-base-right">
             <ui-icon icon="reload"></ui-icon>
             <ui-icon icon="menu-local"></ui-icon>
         </div>
     </header>
 
     <main>
-
         <div class="list-selector">
             <header>
-                <div class="layout-base-left">
+                <div class="l-base-left">
                     <ui-icon icon="chevron"></ui-icon>
                 </div>
                 <div class="title">Empresas</div>
-                <ui-icon icon="search"></ui-icon>
+                <div class="l-base-right">
+                    <ui-icon icon="search"></ui-icon>
+                </div>
             </header>
             <div class="options">
-              <label for="">
-                <input type="checkbox">Empresa 1
-              </label>
+                <label for="">
+                    <input type="checkbox">Empresa 1
+                </label>
             </div>
         </div>
 
+        {{config}}
+
+        <list-selector title="empresa" ng-model="config"></list-selector>
+
     </main>
 
-    <div style="width: 100px; height: 100px; background: red" ng-controller="testController as test" ng-click="test.slide()">
+    <div style="width: 100px; height: 100px; background: red" ng-controller="testController as test" ng-click="test.slide($event)">
         <p open-sliding-down="test.slideDown">Teste</p>
         <p>teste</p>
     </div>
@@ -112,14 +117,24 @@
     <script src="scripts/directives/customattributes.js"></script>
     <script src="scripts/controllers/escopo.js"></script>
     <script src="scripts/directives/uiicon.js"></script>
+    <script src="scripts/directives/list-selector.js"></script>
+    <script src="scripts/directives/list-selector-option.js"></script>
+    <script src="scripts/services/itens.js"></script>
+    <script src="scripts/filters/capitalize.js"></script>
+    <script src="scripts/services/structure.js"></script>
+    <script src="scripts/controllers/maincontroller.js"></script>
     <!-- endbuild -->
 
     <script>
     angular.module('fatoresApp').controller('testController', function() {
         this.slideDown = true;
-        this.slide = function() {
-            this.slideDown = !this.slideDown;
+        this.selected = false;
+        this.slide = function(evt) {
+            if(!this.selected) {
+              this.slideDown = !this.slideDown;
+            }
             console.log('click', this);
+            evt.preventDefault();
         }
 
     });

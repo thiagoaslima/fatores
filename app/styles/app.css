@@ -1,17 +1,29 @@
 html {
 	font-size: 87.5%;
+}
+body {
 	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 }
 
 .ui-icon {
 	width: 2em;
+	height: 2em;
 	fill: currentColor;
 }
 
-.layout-base-left {
+.l-base-left {
 	width: 5em;
 	padding-left: 1.2857em;
+	flex: 0 1 auto;
 }
+.l-base-right {
+	padding-right: 0.85em;
+	flex: 0 1 auto;
+}
+
+/* ************ */
+/*  APP HEADER  */
+/* ************ */
 
 .appHeader {
 	width: 100%;
@@ -32,8 +44,58 @@ html {
 	flex: 1 1 auto;
 }
 .appHeader .title h1.unique {
-	font-size: 1.42857em;
+	font-size: 1.25em;
 	font-weight: normal;
 	margin: 0;
 	padding: 0;
 }
+
+.appHeader .icons .ui-icon:first-of-type {
+	margin-right: 0.85em;
+}
+
+/* *************** */
+/*  LIST SELECTOR  */
+/* *************** */
+
+.list-selector {
+	width: 100%;
+}
+
+.list-selector header,
+.list-selector .body {
+	display: flex;
+	flex-flow: row nowrap;
+}
+.list-selector header {
+	height: 3em;
+	align-items: center;
+}
+
+/*.list-selector .ui-icon {
+	flex: 0 1 auto;
+}*/
+
+.list-selector .title,
+.list-selector .options {
+	flex: 1 1 auto;
+}
+
+.list-selector input[type=radio] {
+	display: none;
+}
+
+.list-selector .options {
+	font-size: 1.3em;
+	font-weight: normal;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+}
+.list-selector .options label {
+	font-weight: normal;
+	display: block
+}
+.list-selector input:checked + p {
+	font-size: 1.5em;
+}
+

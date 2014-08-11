@@ -1,0 +1,4 @@
+<label slide="down" hide={{optCtrl.hide}} ng-show="optCtrl.selected || states.showAll" ng-click="isSelected(item.id)">
+    <input type="radio" name="radio" ng-value="item.id" ng-model="ngModel[title]">&nbsp;
+    <p once-text="item.name"></p>{{showAll}}
+</label>
